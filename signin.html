@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <link rel="stylesheet" href="signup.css">
+        <script >
+        function valid()
+        {
+            
+            var user=document.getElementById("username");
+            var pass=document.getElementById("password");
+            if(user.value=="glwec" && pass.value=="glwec@123")
+            {
+                
+                window.location.href="https://life-hacks-website.s3.ap-northeast-1.amazonaws.com/index.html"
+            }
+            else
+            {
+                
+            //alert("login failed");
+            }
+            
+        }
+
+        </script>
+    </head>
+    <body>
+        <form>
+        <h1>
+            LOGIN PAGE
+        </h1>
+        <h2>
+            Enter username
+        </h2>
+        
+        <input type="text" placeholder="Enter Email" id="username">
+        <h2>
+            Enter password
+        </h2>
+        
+        <input type="text" placeholder="Enter password" id="password">
+        <button type="button" onclick="valid()">Login</button>
+    </form>
+    </body>
+</html>

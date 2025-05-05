@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container {
+
+	width: 100%;
+	background-image: url(clipart.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1em;
+	padding: .3em;
+
+}
+
+.navbar {
+	width: 100%;
+	height: 15hv;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	
+	overflow: hidden;
+	padding-left: 10px;
+
+}
+
+.logo {
+	width: 250px;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+
+
+}
+
+nav {
+	flex: 1;
+	padding-left: 40px;
+	text-align: center;
+	width: 100%;
+	background-color:black;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+	padding: 5px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:white;
+	width: 25%;
+}
+
+.content h1 {
+	font: 60px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #232d60;
+	font-size: 1.7em;
+
+
+}
+
+.leftside {
+	margin-right: 20px;
+}
+
+.coloumn {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	top: 100px;
+	height: 50%;
+	position: relative;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content {
+	color: blueviolet;
+	width: 100%;
+	padding: 14px;
+
+}
+
+div {
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+body {
+	font-size: 1.5em;
+}
+
+.color {
+	color: black;
+}
+
+h3 {
+	color: blueviolet;
+}
+
+#content {
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+	width: 65%;
+	position: relative;
+
+
+}
+
+#sidebar {
+	width: 30%;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: darkslategray;
+	color: #f0f2f5;
+	height: 100%;
+	display: grid;
+
+
+}
+
+#footer {
+	background-color: coral;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+
+
+}
+
+body {
+	font-family:Comic Sans;
+}
+
+
+.comment-box1 {
+
+	top: 25%;
+	height: auto;
+	position: sticky;
+	width: 95%;
+	padding-bottom: 20px;
+	border: solid;
+	padding-left: 4%;
+}
+
+.comment-box1 input {
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+
+}
